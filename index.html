@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Renting Bike</title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <link rel="stylesheet/scss" tyles="text/scss" href="style.scss">
+</head>
+<body>
+     <!--home page-->
+    <header id="header"> 
+        <div class="main-nav"> 
+            <ul>
+                <li onclick="about()">About us</li>
+                <li onclick="register()">Register</li>
+                <li onclick="bikes()">Bikes</li>
+                <li onclick="contact()">Contact</li>
+            </ul>
+        </div>
+               <div class="login" id="log">
+                <form>
+                    <p><b>Username</b></p>
+                    <input type="text" name="username" id="username" placeholder="Username" required>
+                    <p><b>Password</b></p>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <button type="submit" id="sub"><b>Log In</b></button><br>
+                    <a href="#" id="forget-pass"><b>Forget Password</b></a>
+                </form>
+        </div>
+        <div class="welcome-text">
+            <h1>Let your journey <br>
+                begin with our bikes</h1>
+        </div>
+    </header>
+    <footer>
+        <div class="foot-nav">
+            <ul>
+                <li onclick="home()">Home</li>
+                <li>Address</li>
+                <li>FAQ</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+    </footer>
+    <!--********** End of home page **********-->
+    <!-- Booking -->
+    <div class="home-book">
+        <h1 onclick="homeBook()">Book Now</h1>
+    </div>
+    
+
+    <!--Registration for the user-->
+    <div class="register">
+        <form>
+            <button onclick="x()">X</button>
+            <p><b>Username</b></p>
+            <input type="text" name="register-username" id="register-username" placeholder="Username" required>
+            <p><b>Password</b></p>
+            <input type="password" name="register-password" id="register-password" placeholder="password" required>
+            <p><b>Confirm Password</b></p>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm password" required>
+            <p><b>Email</b></p>
+            <input type="email" name="register-email" id="register-email" placeholder="Email" required>
+            <p><b>Mobile no.</b></p>
+            <input type="number" name="register-number" id="register-number" placeholder="Number" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <!--********** End of Registration for the user **********-->
+    <!--Contact or Complain from the user-->
+    <div class="contact">
+        <form>
+            <button onclick="c()">X</button>
+            <p><b>To:</b></p>
+            <input type="email" name="send-to" id="send-to" placeholder="Receiver email" required>
+            <p><b>From:</b></p>
+            <input type="email" name="send-by" id="send-by" placeholder="Sender email" required>
+            <p><b>Subject:</b></p>
+            <input type="text" name="subject" id="subject" placeholder="Subject">
+            <textarea name="message" id="message" placeholder="Message" required></textarea>
+            <p><b>Mobile no.</b></p>
+            <input type="number" name="register-number" id="register-number1" placeholder="Number" required>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <!--********** End of the Contact or Complain from the user **********-->
+    <!--About us-->
+    <div class="about">
+        <p><b>We help you to let you have your desire bike</b><br>
+            <b>Explore the best and make your journey best memo.</b>
+        </p>
+        <div class="team">
+            <ul>
+            <li>
+                <div class="team team--1">
+                    <img src="images/iron883.jpg">
+                    <div class="detail-1">
+                        <div class="wrapper">
+                            <p>The Name</p>
+                            <span>The Company</span>
+                            <div class = "link">
+                                <a href = "#">Facebook</a>
+                                <a href = "#">Instagram</a>
+                                <a href = "#">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="team team--2">
+                    <img src="images/iron883.jpg">
+                    <div class="detail-2">
+                        <div class="wrapper">
+                            <p>The Name</p>
+                            <span>The Company</span>
+                            <div class = "link">
+                                <a href = "#">Facebook</a>
+                                <a href = "#">Instagram</a>
+                                <a href = "#">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="team team--3">
+                    <img src="images/iron883.jpg">
+                    <div class="detail-3">
+                        <div class="wrapper">
+                            <p>The Name</p>
+                            <span>The Company</span>
+                            <div class = "link">
+                                <a href = "#">Facebook</a>
+                                <a href = "#">Instagram</a>
+                                <a href = "#">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="team team--4">
+                    <img src="images/iron883.jpg">
+                    <div class="detail-4">
+                        <div class="wrapper">
+                            <p>The Name</p>
+                            <span>The Company</span>
+                            <div class = "link">
+                                <a href = "#">Facebook</a>
+                                <a href = "#">Instagram</a>
+                                <a href = "#">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="team team--5">
+                    <img src="images/iron883.jpg">
+                    <div class="detail-5">
+                        <div class="wrapper">
+                            <p>The Name</p>
+                            <span>The Company</span>
+                            <div class = "link">
+                                <a href = "#">Facebook</a>
+                                <a href = "#">Instagram</a>
+                                <a href = "#">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <!--********** End of the About us **********-->
+    <!-- Bikes 
+    <div class="filter">
+        <p>Filter by: </p>
+        <div class="price"><p>Price</p></div>
+        <div class="brand"><p>Brand</p></div>
+        <div class="filter-search">
+            <b><input type="text" id="filter-search" placeholder="Search..."></b>
+            <img src="images/filter-search.svg">
+        </div>
+    </div>
+    <div class="bikes">
+        <div class="item item--1">Orange</div>
+        <div class="item item--2">Red</div>
+        <div class="item item--3">Blue</div>
+        <div class="item item--4">Purple</div>
+        <div class="item item--5">Green</div>
+        <div class="item item--6">Orange</div>
+        <div class="item item--7">Red</div>
+        <div class="item item--8">Blue</div>
+        <div class="item item--9">Purple</div>
+        <div class="item item--10">Green</div>
+        <div class="item item--1">Orange</div>
+        <div class="item item--2">Red</div>
+        <div class="item item--3">Blue</div>
+        <div class="item item--4">Purple</div>
+        <div class="item item--5">Green</div>
+        <div class="item item--6">Orange</div>
+        <div class="item item--7">Red</div>
+        <div class="item item--8">Blue</div>
+        <div class="item item--9">Purple</div>
+        <div class="item item--10">Green</div>
+        <div class="item item--1">Orange</div>
+        <div class="item item--2">Red</div>
+        <div class="item item--3">Blue</div>
+        <div class="item item--4">Purple</div>
+        <div class="item item--5">Green</div>
+        <div class="item item--6">Orange</div>
+        <div class="item item--7">Red</div>
+        <div class="item item--8">Blue</div>
+        <div class="item item--9">Purple</div>
+        <div class="item item--10">Green</div>
+    </div>
+    <!--********** End of Bikes *********-->
+
+    <!-- javascript source -->
+    <script src="js/index.js"></script>
+    <script src="js/register.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/c.js"></script>
+    <script src="js/x.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/bikes.js"></script>
+</body>
+</html>
